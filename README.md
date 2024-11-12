@@ -13,6 +13,7 @@ The original recordings often included accompanying instruments like violin, mri
 Metadata file containing audio relevant info such as source, duration, tonic frequency/shruti, bpm, artist details, and rendered lyrics were attached
 Since the Hindustani notations were in Devnagari, a set of symbols was devised to represent the swaras, octaves, silence, etc., essential for digitising the notation from paper to a digital(.csv) format along with lyrics and beats in the avartan/taal cycle.
 My skills came in very handy as I helped manually notate each of the audios capturing rendition-specific notes and variations, which were digitised and aligned into the beat cycle. These were then verified and validated by expert musicians.
+
 ![16 notes.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/41c23b8e-74ea-499b-b84c-f5298716707d/d9fec7db-6b20-4d32-a273-8fc545bb321e/16_notes.png)
 <Set of 16 symbols used in the script digitization process>
 
