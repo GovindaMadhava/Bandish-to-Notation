@@ -45,14 +45,15 @@ The model consists of single BiLSTM layer having 32 LSTM blocks followed by a fu
 <Flow Chart depicting the model architecture>
 
 The output layer has 26 layers corresponding with our symbol set. Once the alignment of audio, lyrics, and notation was checked, the data was fed into the BiLSTM model, which was trained, tested, and validated.
-Using tensorflow version 2.11.0 for our LSTM implementation, we were able to achieve:
+
+The model achieved:
 - 56.82% accuracy for canonical notation prediction
 - 50.16% accuracy for expert rendition-specific notation prediction
 
 ![Screenshot 2024-11-11 at 17.48.58.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/41c23b8e-74ea-499b-b84c-f5298716707d/ecc2066c-4d2f-4050-81d8-716bbe5d17c3/Screenshot_2024-11-11_at_17.48.58.png)
 ![Screenshot 2024-11-11 at 17.49.27.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/41c23b8e-74ea-499b-b84c-f5298716707d/98180359-984f-4c9f-b22e-a262a646c1cd/Screenshot_2024-11-11_at_17.49.27.png)
 
-The findings of the project have been compiled into a research paper titled “SINGING TRANSCRIPTION WITH SCHEMATIC NOTATION FOR RAGA MUSIC“ will be submitted at The International Society for Music Information Retrieval (ISMIR) 2025 conference.
+The findings of the project have been compiled into a research paper titled “SINGING TRANSCRIPTION WITH SCHEMATIC NOTATION FOR RAGA MUSIC“. We plan to increase the dataset size which would improve the performance, to be submitted at The International Society for Music Information Retrieval (ISMIR) 2025 conference.
 
 This project bridges the gap between oral tradition and computational analysis in Indian classical music, providing a detailed dataset (~4GB) with annotations and artist-specific notations for study and analysis. The model can also generate automatic sargam notations with lyrics and beat alignment, serving as a valuable tool for students to study and compare various artist renditions.
 
