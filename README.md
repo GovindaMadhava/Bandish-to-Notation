@@ -47,8 +47,8 @@ The model consists of single BiLSTM layer having 32 LSTM blocks followed by a fu
 The output layer has 26 layers corresponding with our symbol set. Once the alignment of audio, lyrics, and notation was checked, the data was fed into the BiLSTM model, which was trained, tested, and validated.
 
 The model achieved:
-- 56.82% accuracy for canonical notation prediction
-- 50.16% accuracy for expert rendition-specific notation prediction
+- 68.82% accuracy for canonical notation prediction
+- 60.16% accuracy for expert rendition-specific notation prediction
 
 ![Screenshot 2024-11-11 at 17.48.58.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/41c23b8e-74ea-499b-b84c-f5298716707d/ecc2066c-4d2f-4050-81d8-716bbe5d17c3/Screenshot_2024-11-11_at_17.48.58.png)
 ![Screenshot 2024-11-11 at 17.49.27.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/41c23b8e-74ea-499b-b84c-f5298716707d/98180359-984f-4c9f-b22e-a262a646c1cd/Screenshot_2024-11-11_at_17.49.27.png)
